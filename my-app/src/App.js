@@ -6,7 +6,7 @@ import NavBarForm from "./components/NavBarForm";
 function App() {
   return (
     <div className={css.App}>
-      {/* Add your components here */}
+      {/* Add your components here! */}
       {/* <NavBarSimple /> */}
       <Sidebar />
       <NavBarForm />
