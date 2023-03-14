@@ -46,7 +46,7 @@ class NavBarForm extends Component {
             handleClick={this.handleButtonClick}
             />
         </div>
-        // NESTED COMPONENTS METHOD
+        // NESTED COMPONENTS METHOD!
         // Import the child component (NavBarchild)
         // Here we used nested compoents method by passing the above code to a child file
         // Then with the method above, passed the isLoggedIn and handleClick as props to the child component.
