@@ -3,7 +3,7 @@ import css from "./css/NavBarForm.module.css";
 import NavBarChild from './NavBarChild';
 
 
-
+// creating a nav bar 
 class NavBarForm extends Component {
     constructor(props) {
         super(props)
