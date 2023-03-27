@@ -5,6 +5,7 @@ import Loader from "./Loader";
 import axios from "axios";
 import API_KEY from "../secrets";
 
+// used hooks to refractor ContentAPI.js file
 export default function ContentAPIHooks() {
     const [isLoaded, setIsLoaded] = useState(false);
     const [posts, setPosts] = useState([]);
