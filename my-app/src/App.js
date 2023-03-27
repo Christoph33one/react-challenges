@@ -4,9 +4,8 @@ import Sidebar from "./components/Sidebar";
 import NavBarForm from "./components/NavBarForm";
 // import Content from "./components/Content";
 // import ContentHooks from "./components/ContentHooks";
-import ContentAPI from "./components/ContentAPI";
-
-
+import ContentAPI from "./components/ContentAPIHooks";
+import ContentAPIHooks from "./components/ContentAPIHooks";
 
 
 function App() {
@@ -18,7 +17,8 @@ function App() {
       <NavBarForm />
       {/* <Content /> */}
       {/* <ContentHooks /> */}
-      <ContentAPI />
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
